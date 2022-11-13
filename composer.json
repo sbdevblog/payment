@@ -1,0 +1,21 @@
+{
+    "name": "sb/payment-blog",
+    "description": "Payment Handle Module For Blog.",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+     "require": {
+        "php": "^7.4||^8.1",
+        "magento/module-payment": "^100.4.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sb\\Payment\\": ""
+        }
+    }
+}
